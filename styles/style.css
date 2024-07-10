@@ -128,3 +128,21 @@
 .image-square{
     margin-right: 32px;
 }
+
+/* My Inspiration frame styles */
+.inspiration-frame{
+    max-width: 1140px;  
+    margin: 0 152px 90px 151px;
+    padding: 0 97px;
+}
+
+.inspiration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video{
+    border-radius: 16px;
+}
