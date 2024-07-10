@@ -7,8 +7,22 @@
 }
 
 /* Shared Styles */
-.title-color{
+.title{
+    text-align: center;
     color: #0D1321;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.common-description{
+    text-align: center;
+    color: #0D1321;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.common-title-section{
+    padding: 0px 47px 48px;
 }
 
 /* Header Styles */
@@ -53,20 +67,64 @@
     max-width: 998px;
 }
 
-.banner-description{
-    text-align: center;
-    color: #0D1321;
-    font-size: 16px;
-    margin-bottom: 32px;
-}
-
 .btn-contact{
     background-color: #0D1321;
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 600;
     padding: 21px 24px;
-    border-radius: 5px;
+    border-radius: 8px;
     display: block;
     margin: auto;
+}
+
+/* Why Web Development Frame Styles */
+.why-web-frame{
+    max-width: 1140px;
+    background-color: rgba(13, 19, 33, 0.02);
+    border-radius: 5px;
+    margin: 74px 152px 90px 148px;
+    padding: 80px 97px;
+}
+
+.sub-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.motiv-description{
+    color: #0D1321;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.btn-more{
+    border-color: #0D1321;
+    padding: 12px 20px;
+    font-size: 20px;
+    color: #0D1321;
+    font-weight: 600;
+    background-color: #FFFFFF;
+}
+
+.motivation{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    border-color: #FFFFFF;
+}
+
+.motivation-content{
+    width: 477px;
+}
+
+/* Motivation Card 2 elements do not seem to have space between like motivation card 1 and 3. That's why, I added padding and margin according to figma  */
+.motivation2{
+    display: flex;
+    padding: 48px;
+}
+
+.image-square{
+    margin-right: 32px;
 }
