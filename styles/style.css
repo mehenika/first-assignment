@@ -146,3 +146,53 @@
 .video{
     border-radius: 16px;
 }
+
+/* My Current Target frame styles */
+.target-frame{
+    max-width: 1140px;  
+    margin: 0 152px 90px 151px;
+    padding: 0 97px;
+}
+
+.skill-image{
+    width: 56px;
+    height: 56px;
+}
+
+.small-title{
+    font-size: 24px;
+    font-weight: 800;
+    color: #0D1321;
+}
+
+.more-link{
+    font-size: 16px;
+    font-weight: bold;
+    color: #0D1321;
+}
+
+.one{
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+    padding: 32px;
+    width: 364px;
+}
+
+.two{
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+    padding: 32px;
+    width: 364px;
+}
+
+.three{
+    background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+    padding: 32px;
+    width: 364px;
+}
+
+.skills{
+    display: flex;
+    column-gap: 24px;
+}
