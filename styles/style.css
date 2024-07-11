@@ -110,6 +110,10 @@
     background-color: #FFFFFF;
 }
 
+.btn-more:hover{
+    cursor: pointer;
+}
+
 .motivation{
     display: flex;
     justify-content: space-between;
@@ -251,6 +255,7 @@
     min-width: 684px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .feedback{
