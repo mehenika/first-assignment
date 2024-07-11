@@ -79,6 +79,14 @@
     margin: auto;
 }
 
+.btn-contact:hover{
+    cursor: pointer;
+}
+
+.contact{
+      text-decoration: none;
+}
+
 /* Why Web Development Frame Styles */
 .why-web-frame{
     max-width: 1140px;
